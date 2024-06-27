@@ -1,0 +1,34 @@
+
+.addRoom{
+    overflow: hidden;
+    max-height: 50px;
+    transition: max-height 0.5s ease-out;
+    background-color: rgba(200, 144, 223, 0.63);
+    box-shadow: 5px 1px 12px 0 black;
+    backdrop-filter: blur(12px);
+    padding: 5px 5px 0px 5px;
+    border-radius: 10px;
+    
+    position: fixed;
+    bottom: 60px;
+    right: 15px;
+
+    height: 40%;
+    width: 15%;
+}
+.addRoom.open {
+    max-height: 500px; 
+  }
+.addButton{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+.available-row {
+    background-color: #dff0d8; /* yeşil */
+  }
+  
+  .unavailable-row {
+    background-color: #f2dede; /* kırmızı */
+  }
+  
